@@ -33,26 +33,16 @@
 
     <!--response form-->
     <div>
-        <form>
+        <form action="" method="get">
             <fieldset>
             <legend>We would like to hear from you.</legend>
-                <ul>
-                    <li>Was this information helpful? On a scale of 1-5</li>
-                        <label name="" for="" type=""></label><input name="fully-agree" type="radio" value="">
-                        <label name="" for="" type=""></label><input name="agree" type="radio" value="">
-                        <label name="" for="" type=""></label><input name="maybe" type="radio" value="">
-                        <label name="" for="" type=""></label><input name="disgree" type="radio" value="">
-                        <label name="" for="" type=""></label><input name="fully-disagree" type="radio" value="">
-                    <li>Who are you serching for?</li>
-                        <label name="" for="" type=""></label><input type="checkbox" name="" value="">
-                        <label name="" for="" type=""></label><input type="checkbox" name="" value="">
-                        <label name="" for="" type=""></label><input type="checkbox" name="" value="">
-                        <label name="" for="" type=""></label><input type="checkbox" name="" value="">
-                        <label name="" for="" type=""></label><input type="checkbox" name="" value="">
-                    <textfield>Give us your feedback</textfield>
-                </ul>
-                    <label name="" for="" type="submit"></label><input name="submit-label" type="submit">
-                </fieldset>
+                <label name="" for="name" type="text" required></label>Name:<input name="name" type="text" value="">
+                <label name="" for="last-name" type="text" required></label>Last Name:<input name="last-name" type="text" value="">
+                <label name="" for="email" type="email" placeholder="example@email.ie" required></label>Email:<input name="email" type="email" value=""><br>
+                <label name="" for="message" type="text"></label>Message:<input name="message" type="text" value=""><br>
+                <textfield>Give us your feedback</textfield><input name="" type="text" value="">
+                <label name="" for="submit-label" type="submit"></label><input name="submit-label" type="submit">
+            </fieldset>
         </form>
     </div>
 
