@@ -7,7 +7,7 @@ body{
     height: ;
     margin: ;
     display: ;
-    flex-direction: ;
+    flex-direction: column;
 }
 
 .header{
@@ -35,7 +35,7 @@ footer{
 }
 
 .nav-list li {
-    float: left;
+    -ms-flex-align: center;
     margin-right: ;
     list-style-type: none;
 }

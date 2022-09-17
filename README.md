@@ -83,6 +83,7 @@ Fully resposive website. Consist of three pages. Fully acceccible bult.
 * GitHub
     * Github Flow
 * ui.dev 
+* google fonts
 
 ## Features left to implement 
 * 
