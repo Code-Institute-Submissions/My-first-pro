@@ -1,0 +1,60 @@
+body{
+    background-color: #fff;
+    font-family: ;
+    font-size: ;
+    height: ;
+    margin: ;
+    display: ;
+    flex-direction: ;
+}
+
+#header{
+    background-color: ;
+    font-size: ;
+    margin: ;
+    padding: ;
+}
+
+footer{
+    background-color: ;
+    font-size: ;
+    margin: ;
+    padding: ;
+}
+
+.log{
+
+}
+
+/* nav bar*/ 
+nav a {
+    position: relative;
+    z-index: 1;
+}
+
+nav a:hover {
+    color: ;
+}
+
+nav  a:after {
+    display: ;
+    position: ;
+    top: ;
+    left: ;
+    bottom: ;
+    margin: ;
+    width: ;
+    height: ;
+    content: "";
+    color: ;
+    background: ;
+    visibility: ;
+    opacity: ;
+    z-index: ;
+}
+
+nav div ul li a:hover:after {
+    opacity: ;
+    visibility: ;
+    height: ;
+}
