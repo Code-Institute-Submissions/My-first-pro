@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz@8..60&display=swap');
+
 body{
     background-color: #fff;
-    font-family: ;
-    font-size: ;
+    font-family: Source Serif 4, serif, sans-serif;
+    font-size: 1.25rem;
     height: ;
     margin: ;
     display: ;
@@ -27,17 +29,28 @@ footer{
 }
 
 /* nav bar*/ 
+.nav-list{
+    font-size: ;
+    letter-spacing: 0.5rem;
+}
+
+.nav-list li {
+    float: left;
+    margin-right: ;
+    list-style-type: none;
+}
+
 nav a {
-    position: relative;
-    z-index: 1;
+    position:;
+    z-index: ;
 }
 
 nav a:hover {
-    color: ;
+    color: blue;
 }
 
 nav  a:after {
-    display: ;
+    display: red;
     position: ;
     top: ;
     left: ;
