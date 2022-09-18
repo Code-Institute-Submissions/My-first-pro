@@ -77,13 +77,23 @@ Fully resposive website. Consist of three pages. Fully acceccible bult.
 ## Technologies used 
 * HTML
 * CSS
-* Colors.com
 * Canvas 
-* Pixels 
+
 * GitHub
     * Github Flow
+
+
+
+### External Resources used
+* YouTube  
+* Google 
+    * Map
+    * Fonts
+* 
+* Pixels 
 * ui.dev 
-* google fonts
+* FontAwesome
+* Colors.com
 
 ## Features left to implement 
 * 
