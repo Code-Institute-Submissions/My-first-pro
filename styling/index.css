@@ -4,21 +4,22 @@ body{
     background-color: #fff;
     font-family: Source Serif 4, serif, sans-serif;
     font-size: 1.25rem;
-    height: ;
+    height: 100vh;
+    min-width: 1rem;
     margin: ;
     display: ;
     flex-direction: column;
 }
 
 .header{
-    background-color: ;
+    background-color: #eeb902;
     font-size: ;
     margin: ;
     padding: ;
 }
 
 footer{
-    background-color: ;
+    background-color: #eeb902;
     font-size: ;
     margin: ;
     padding: ;
@@ -72,8 +73,9 @@ nav div ul li a:hover:after {
     height: ;
 }
 /*footer*/
-
-
+.fa-icons{
+    
+}
 
 .facebook-color{
     background-color: #3b5998;
