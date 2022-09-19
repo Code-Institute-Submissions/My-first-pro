@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz@8..60&display=swap');
 
-body{
+body{/*
     background-color: #fff;
     font-family: Source Serif 4, serif, sans-serif;
     color: #474647;
@@ -9,10 +9,10 @@ body{
     /* min-width: 1rem; */
     margin: ;
     display: ;
-    flex-direction: column;
+    flex-direction: ;
 }
 
-.header{
+.header{/*
     background-color: #eeb902;
     font-size: ;
     margin: ;
@@ -40,13 +40,13 @@ footer{
     font-size: ;
     letter-spacing: 0.5rem;
     
-}
+}/*
 
 .nav-list li {
     /*-ms-flex-align: center;*/
     margin-right: ;
     list-style-type: none;
-    justify-content: center;
+    justify-content: ;
 }
 
 nav a {
@@ -84,7 +84,7 @@ nav div ul li a:hover:after {
 .fa-icons{
     
 }
-
+/*
 .facebook-color{
     background-color: #3b5998;
 
@@ -92,4 +92,4 @@ nav div ul li a:hover:after {
 }
 .linkedin-color{
     background-color: #0082ca;
-}
+}*/
