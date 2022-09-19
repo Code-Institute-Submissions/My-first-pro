@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz@8..60&display=swap');
 
+
+/*logo size*/
+.logo-img img {
+    height: 85px;
+    padding: 5px;
+}
+
+
+
+
 body{/*
     background-color: #fff;
     font-family: Source Serif 4, serif, sans-serif;

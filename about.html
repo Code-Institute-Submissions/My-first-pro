@@ -5,25 +5,24 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0 shrink-to-fit=no">
         <meta name="description" content="Mental Health">
         <meta name="keywords" content="Depression Mental Health">
- 
         <!--fontawsome-->
         <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-
         <!--css external link-->
         <link rel="stylesheet" href="assets/style.css">
         <title>Mental Health - About Us Page</title>
     </head>
     <body>
-        <header>
-            <section class="logo-sec hero-sec">
+        <header class=" page-header menu-sec page-head-sec logo-sec">
+            <section class="logo-sec">
                 <!--logo-->    
                 <div class="logo-imag">
                     <a href="index.html" target="_blank" rel="noopener" aria-label="Clickable logo leading to home page">
-                        <img src="assets/images/logo-img/two-heads-backwards.png" rel="noopener" alt="The logo about mental health" >
+                        <img src="assets/images/logo-image/two-heads-backwards.png" rel="noopener" alt="The logo about mental health" >
                     </a>
                 </div>
+            </section>
             <section class="page-head-sec">
-                <!--main heading of website-->
+                <!--main heading-->
                 <h1>Contact us</h1>
                     <p>We would like to here from you.</p>
             </section>
@@ -41,52 +40,64 @@
                             <a class="" href="index.html" target="_blank" rel="noopener" aria-label="Link to home page (open in a new tab)">Home</a>
                         </li>
                     </ul>
-                </section>
-            </nav>
+                </nav>
+            </section>
         </header>
-        <section class="utube-sec">
-            <!--youtube media-->
-            <div class="utube-vd">
-                <iframe src="https://www.youtube.com/embed/7-1Y6IbAxdM?start=13" title="YouTube video about Mindfulness" width="600" height="315" frameborder="0" 
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen aria-label="YouTube video about minfulness"></iframe>
+        <section class="body-page utube-sec locatn-sec form-sec">
+            <div class="utube-sec">
+                <!--youtube media-->
+                <div class="utube-vd">
+                    <iframe src="https://www.youtube.com/embed/7-1Y6IbAxdM?start=13" title="YouTube video about Mindfulness" width="600" height="315" frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen aria-label="YouTube video about minfulness"></iframe>
+                </div>
             </div>
-        </section>
-        <section class="locatn-sec">
-            <!--office address-->
-                <div class="off-addr"> 
+            <div class="locatn-sec">
+                <!--office address-->
+                <div class="offc-addr"> 
                     <h4>You can visit us at this address</4h>
-                        <p>Lock House,<br>Office Block C,<br> Charlemont St,<br>Saint Kevin's,<br>Dublin</p>
-                </div>  
-                <!--map location-->
+                        <p>
+                            Lock House,<br>
+                            Office Block C,<br> 
+                            Charlemont St,<br>
+                            Saint Kevin's,<br>
+                            Dublin
+                        </p>
+                </div>   
                 <div class="map-location">
+                    <!--map location-->
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d566.5287444842885!2d-6.263733521970275!3d53.33056168066297!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48670fe841ae1601%3A0xd282f61a3bfb427d!2sLock%20House%201!5e0!3m2!1sen!2sie!4v1663509070666!5m2!1sen!2sie" 
                     width="600" height="315" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" aria-label="Map location of the office"></iframe>
                 </div>
+            </div>    
+            <div class="form-sec">
+                <!--feedback form-->
+                <div>
+                    <form action="" method="get">
+                        <fieldset>
+                        <legend>We would like to hear from you.</legend>
+                            <label name="" for="name" type="text" required>Name:</label>
+                                <input name="name" type="text" value="">
+                            <label name="" for="last-name" type="text" required>Last Name:</label>
+                                <input name="last-name" type="text" value="">
+                            <label name="" for="email" type="email" placeholder="example@email.ie" required>Email:</label>
+                                <input name="email" type="email" value="">
+                            <label name="" for="message" type="text">Message:</label>
+                                <input name="message" type="text" value="">
+                            <textfield>Give us your feedback</textfield>
+                                <input name="" type="text" value="">
+                            <label name="" for="submit-label" type="submit"></label>
+                                <input name="submit-label" type="submit">
+                        </fieldset>
+                    </form>
+                </div>
         </section>
-        <section class="form-sec">
-            <!--feedback form-->
-            <div>
-                <form action="" method="get">
-                    <fieldset>
-                    <legend>We would like to hear from you.</legend>
-                        <label name="" for="name" type="text" required></label>Name:<input name="name" type="text" value="">
-                        <label name="" for="last-name" type="text" required></label>Last Name:<input name="last-name" type="text" value="">
-                        <label name="" for="email" type="email" placeholder="example@email.ie" required></label>Email:<input name="email" type="email" value="">
-                        <label name="" for="message" type="text"></label>Message:<input name="message" type="text" value="">
-                        <textfield>Give us your feedback</textfield><input name="" type="text" value="">
-                        <label name="" for="submit-label" type="submit"></label><input name="submit-label" type="submit">
-                    </fieldset>
-                </form>
-            </div>
-        </section>
-
-        <footer>
+        <footer class="footer-page imag-sec copy-right-sec">
             <section class="imag-sec">
                 <!--copy rights -->
                 <p>For Educational Purposes Only.</p>
             </section>
             <section class="copy-right-sec">
-                <!--social media icons-->
+                <!--social media icons--> 
                 <div>
                     <ul class="fa-icons">
                         <li>
