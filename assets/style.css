@@ -2,23 +2,47 @@ body{
     background-color: #fff;
     font-family: Source Serif 4, serif, sans-serif;
     color: #474647;
-    font-size: 16px;
+    font-size: 100%;
     height: fit-content;
     width: fit-content;
     margin: 0;
-    display:flow-root; 
+    display: table-column; 
 }
 
 header, footer {
-    background-color: #62a56b;
+    background-color: #EEB902; 
 }
+
+.discrp-box{
+    font-size: 120%;
+    margin: 120px;
+    border: 200px;
+    padding: ;
+}
+/*
+a:hover {
+    padding-left:15px;
+    text-decoration:none;
+}
+nav .nav-list {
+    display:inline-table;
+    list-style-type: none;
+}
+li a:hover {
+    text-decoration:;
+    color:#62A56B;
+}*/
+
 
 /*logo size*/
 .logo-img img {
-    height: 85px;
-    padding: 5px;
+    height: 75px;
+    padding: 4px;
 }
 
+.brief-discrp-sec{
+    position: ;
+}
 
 
 /*mobile set-up
