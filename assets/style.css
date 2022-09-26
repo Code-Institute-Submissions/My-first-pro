@@ -1,3 +1,5 @@
+/*mobile view*/
+
 body{
     background-color: #fff;
     font-family: Arial, Helvetica, sans-serif;
@@ -6,55 +8,37 @@ body{
     margin: 0;
     padding: 0;
 }
-
-/*header*/
-h1{
-
-}
-/*logo size*/
-.logo-img img {
-    height: 75px;
-    padding: 4px;
-}
 header, footer {
     background-color: #EEB902; 
     margin: 0;
     padding: 0;
 }
-
+/*header*/
+h1{
+  font-size: 40px;
+}
+.discrp-box > p{
+  font-size: 20px;
+}
+header-imag > img{
+    height: 200px;
+    padding-left: 100px;
+    border-radius: 25px;
+}
+/*logo size*/
+.logo-img{
+    height: 75px;
+    padding: 4px;
+}
+/*menu bar*/
+.menu-bar > li{
+  list-style-type: none;
+}
+/*header page brief*/
 .discrp-box{
   padding-left: 200px;
   padding-right: 300px;
-  
-}
-
-header-imag{
-    height: 200px;
-    padding-left: 100px;
-}
-
-/*menu bar*/
-.menu-bar{
- 
-
-}
-
-.menu-bar > li{
-  list-style-type: none;
-  
-}
-
-/*header page brief*/
-.brief-discrp-sec{
-  
-}
-
-.imag-sec{
-  position: relative;
-  left:80px;
-  height: 0px;
-  padding: 0px;
-}
+}  
 /*footer*/
 footer{
  margin-top: 500px;
@@ -62,19 +46,11 @@ footer{
  bottom: fixed;
  list-style-type: none;
 }
-
 fa-icons > li{
   text-align: center;
   display: inline;
 }
-/*mobile view*/
-
-
 /*a tag styling*/
-a{
-
-}
-
 a:hover {
     padding-left:5px;
     text-decoration:none;
@@ -85,7 +61,12 @@ a:hover {
 /*Social media icons*/
 
 /*home page content*/
+#index-img > img{
+  height: 75px;
+  padding: 4px;
+  border-radius: 25px;
 
+}
 
 /*services page content*/
 
