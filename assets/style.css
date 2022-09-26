@@ -11,16 +11,26 @@ body{
 h1{
 
 }
+/*logo size*/
+.logo-img img {
+    height: 75px;
+    padding: 4px;
+}
 header, footer {
     background-color: #EEB902; 
     margin: 0;
     padding: 0;
 }
 
-/*logo size*/
-.logo-img img {
-    height: 75px;
-    padding: 4px;
+.discrp-box{
+  padding-left: 200px;
+  padding-right: 300px;
+  
+}
+
+header-imag{
+    height: 200px;
+    padding-left: 100px;
 }
 
 /*menu bar*/
