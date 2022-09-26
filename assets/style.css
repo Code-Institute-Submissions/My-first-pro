@@ -3,7 +3,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     color: #474647;
     font-size: 100%;
-    position: relative;
+ 
 }
 
 /*header*/
@@ -40,8 +40,11 @@ header, footer {
 }
 /*footer*/
 footer{
-  
-}
+ margin-top: 500px;
+ position:relative;
+ bottom: fixed;
+ list-style-type: none;
+ 
 /*mobile view*/
 
 
@@ -60,10 +63,7 @@ a:hover {
 /*Social media icons*/
 
 /*home page content*/
-.home-backgd-image{
-  background-image: url("images/background-image/bipolar-disorder-animated-healthcare-ltdscience-photo-library.jpeg");
-  background-repeat: no-repeat;
-}
+
 
 /*services page content*/
 
