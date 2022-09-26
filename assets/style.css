@@ -3,7 +3,8 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     color: #474647;
     font-size: 100%;
- 
+    margin: 0;
+    padding: 0;
 }
 
 /*header*/
@@ -23,8 +24,14 @@ header, footer {
 }
 
 /*menu bar*/
-.menu-sec{
-  ;
+.menu-bar{
+ 
+
+}
+
+.menu-bar > li{
+  list-style-type: none;
+  
 }
 
 /*header page brief*/
@@ -44,7 +51,12 @@ footer{
  position:relative;
  bottom: fixed;
  list-style-type: none;
- 
+}
+
+fa-icons > li{
+  text-align: center;
+  display: inline;
+}
 /*mobile view*/
 
 
