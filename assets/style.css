@@ -1,4 +1,19 @@
 /*mobile view*/
+@media only screen and (min-width: 280px){ 
+  body{
+    background-color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #474647;
+    font-size-adjust: ;
+  } 
+  
+}
+
+
+/*tablet view*/
+@media only screen and (min-width: 768px) and (max-width:1336px){
+
+}
 
 body{
     background-color: #fff;
