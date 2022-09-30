@@ -17,8 +17,6 @@ header, footer{
 }
 /*logo style*/
 .logo-img > img{
-  position: relative;
-  left: 5px;
   height: 450px;
   padding: 20px;
 }
@@ -29,10 +27,11 @@ header, footer{
   border-radius: 20px;
   width: 300px;
   max-width: 100%;
+}
 /* menu links */
-.nav-list > li {
+.menu-sec > li {
   position: relative;
-  right: 800px;
+  left: 400px;
   text-decoration: none;
   list-style: none;
   padding: 10px 14px;
@@ -48,26 +47,20 @@ header, footer{
   padding: 10px;
 }
 /*form styling*/
-/* Contact us responsive design */
-#contact-container {
-  flex-direction: column;
-  display: flex;
-  flex-wrap: wrap;
+/* about us form */
+form > #formbox{
+  border: 2px solid #52A56B;
+  width: auto;
+  height: fit-content;
+
 }
-.left-side-contact {
-  padding: 0;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-}
-#contact-h2 {
-  padding-bottom: 10px;
-  margin-top: 10px;
-}
-.right-side-contact {
-  text-align: center;
-  display: flex;
-  flex-wrap: wrap;
-  margin-bottom: 50px;
+textarea {
+  width: 100%;
+  height: 50px;
+  padding: 12px 15px;
+  box-sizing: border-box;
+  border: 2px solid #52A56B;
+  border-radius: 4px;
+  background-color: #FFF;
+  resize: vertical; 
 }
