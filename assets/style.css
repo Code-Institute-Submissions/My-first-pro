@@ -1,89 +1,53 @@
-/*mobile view*/
-@media only screen and (min-width: 280px){ 
-  body{
-    background-color: #fff;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #474647;
-    font-size-adjust: ;
-  } 
-  
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
-
-
-/*tablet view*/
-@media only screen and (min-width: 768px) and (max-width:1336px){
-
-}
-
 body{
-    background-color: #fff;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #474647;
-    font-size: 100%;
-    margin: 0;
-    padding: 0;
-}
-header, footer {
-    background-color: #EEB902; 
-    margin: 0;
-    padding: 0;
-}
-/*header*/
-h1{
-  font-size: 40px;
-}
-.discrp-box > p{
-  font-size: 20px;
-}
-header-imag > img{
-    height: 200px;
-    padding-left: 100px;
-    border-radius: 25px;
-}
-/*logo size*/
-.logo-img{
-    height: 75px;
-    padding: 4px;
-}
-/*menu bar*/
-.menu-bar > li{
-  list-style-type: none;
-}
-/*header page brief*/
-.discrp-box{
-  padding-left: 200px;
-  padding-right: 300px;
-}  
-/*footer*/
-footer{
- margin-top: 500px;
- position:relative;
- bottom: fixed;
- list-style-type: none;
-}
-fa-icons > li{
+  background-color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 350;
+} 
+/* style the header and footer*/
+header, footer{
+  background-color: #EEB902;
   text-align: center;
-  display: inline;
+  padding: 20px;
 }
-/*a tag styling*/
-a:hover {
-    padding-left:5px;
-    text-decoration:none;
+/* style the top navigation bar */
+.menu-sec{
+  background-color: ;
 }
-
-/*form*/
-
-/*Social media icons*/
-
-/*home page content*/
-#index-img > img{
+/* menu links */
+.nav-list li {
+  text-decoration: none;
+  list-style: none;
+  display: block;
+  text-align: center;
+  padding: 10px 14px;
+}
+/* change color on hover */
+.nav-list a:hover {
+  background-color: #468CD8;
+  color: #FFF;
+}
+/*logo style*/
+.logo-img > img{
   height: 75px;
-  padding: 4px;
-  border-radius: 25px;
+  padding: 5px;
+}
+/*home page image*/
+.header-imag > img{
+  border-radius: 20px;
+  width: 500px;
+  max-width: 100%;
+}
+section{
 
 }
-
-/*services page content*/
-
-
-/*about us page */
+/*style footer*/
+.footer-page-home{
+  text-align: center;
+  padding: 10px;
+}
