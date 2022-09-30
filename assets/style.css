@@ -51,7 +51,7 @@ header, footer{
 form{
   border: 2px solid #52A56B;
   width: 450px;
-  height: 250px;
+  height: 350px;
 }
 fieldset{
   border: none;
@@ -61,6 +61,24 @@ fieldset{
 legend{
   font-size: large;
   font-weight: bold;
+}
+label{
+  display: inline-block;
+  width: 140px;
+  text-align: right;
+}
+input[type="text"]{
+  border: 2px solid #808080;
+  height: 20px;
+  padding: 5px;
+  margin: 5px;
+  width:fit-content;
+}
+input[type="email"]{
+  border: 2px solid #808080;
+  height: 20px;
+  padding: 5px;
+  margin: 5px;
 }
 textarea {
   width: 100%;
