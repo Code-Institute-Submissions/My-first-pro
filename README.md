@@ -20,9 +20,6 @@ http://github.com - automatic!
 10. Deployment 
 11. Credits 
 12. To work on for future pursposes
-13. 
-14. 
-15. 
 
 ## Aim of the project
 * Provide information to user
@@ -116,6 +113,11 @@ logo image not responsive|
 ## Deployment 
 
 ## Credits  
+* stackoverflow
+* codepen
+* Andrew Dumpsey
+* w3school
+* developer mozilla
 
 ### Media 
 
