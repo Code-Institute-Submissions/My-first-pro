@@ -1,6 +1,6 @@
 # My Project name 
 ## Introduction
-This website is an information hub for anyone who would like to know more about mental health. It provides information about different types of mental health, resources available to support anyone suffering from mental health and and tips on living a healthier life with mental health. 
+This website is an information website for anyone who would like to know more about mental health. It provides information about different types of mental health illnesses, resources available to support anyone suffering from mental health and and signs of negative mental health. 
 
 ![GitHub Logo]()
 Format:![Alt Text](url)
@@ -25,28 +25,28 @@ http://github.com - automatic!
 15. 
 
 ## Aim of the project
-* Provide information hub
-    * with details types of mental health 
-    * signs of mental health
-    * resources available
-* Tips 
-    * how to help someone with mental health
-    * how to get help if you have
+* Provide information to user
+    * With details on types of mental health 
+    * Signs of mental health
+    * Resources available 
+    * Feedback form
  
 ## Aim behind the idea
-* a place people can get resourses for help
-* a place to educate yourself
+* Provide a place where people can get helpful resources around mental health issues
+* Provide an informative place to educate yourself
+* Creat awareness about mental health by providing the most rcent information about mental health
 
-## user experience aim 
-* descriptive explaination about types of mental health
-    * how can u tell signs
-    * resources available to get help
-* Tips 
-    * what others can do for you
-    * how to help yourself
+## User experience aim 
+* For the user to find detailed explaination about types of mental health
+    * Signs of negative mental health
+    * Resources available to get help
 
 ## Features 
-Fully resposive website. Consist of three pages. Fully acceccible bult. 
+Consist of three pages
+1. ![Home page wireframe](https://github.com/Cy-2-30/My-first-pro/blob/main/wireframe-image/home-page.png)
+2.  ![Services Page](https://github.com/Cy-2-30/My-first-pro/blob/main/wireframe-image/servises-page.png)
+3. ![About us Page](https://github.com/Cy-2-30/My-first-pro/blob/main/wireframe-image/about-page.png)
+
 
 ### Existing Features
 
@@ -104,7 +104,13 @@ Fully resposive website. Consist of three pages. Fully acceccible bult.
 ### Validator Testing
 
 ## Bugs
-Bug issue - bug solution|: when opening browser it was flickering -  |: when opening browser it was leading to a different page - |: 
+Bug issue - bug solution
+------------------------|
+When opening browser it was flickering | 
+-----------------------------------------|
+when opening browser it was leading to a different page 
+--------------------------------------------------------
+logo image not responsive|
 
 
 ## Deployment 
@@ -118,6 +124,14 @@ Bug issue - bug solution|: when opening browser it was flickering -  |: when ope
 ### aknowledgement 
 
 ## To work on for future pursposes 
-
+*Content    
+    * Add tips 
+        * How to help someone with mental health
+        * How to get help if you are suffering from mental health
+        * What others can do for you through suport structure
+        * How to help yourself
+* Features 
+    * Fully resposive website
+    *
     
 

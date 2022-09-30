@@ -1,5 +1,5 @@
 *{
-  box-sizing: border-box;
+  display: static;
   padding: 0;
   margin: 0;
 }
@@ -15,16 +15,26 @@ header, footer{
   text-align: center;
   padding: 20px;
 }
-/* style the top navigation bar */
-.menu-sec{
-  background-color: ;
+/*logo style*/
+.logo-img > img{
+  position: relative;
+  left: 5px;
+  height: 450px;
+  padding: 20px;
 }
+/*home page image*/
+.header-imag > img{
+  position: relative;
+  left: 450px;
+  border-radius: 20px;
+  width: 300px;
+  max-width: 100%;
 /* menu links */
-.nav-list li {
+.nav-list > li {
+  position: relative;
+  right: 800px;
   text-decoration: none;
   list-style: none;
-  display: block;
-  text-align: center;
   padding: 10px 14px;
 }
 /* change color on hover */
@@ -32,22 +42,32 @@ header, footer{
   background-color: #468CD8;
   color: #FFF;
 }
-/*logo style*/
-.logo-img > img{
-  height: 75px;
-  padding: 5px;
-}
-/*home page image*/
-.header-imag > img{
-  border-radius: 20px;
-  width: 500px;
-  max-width: 100%;
-}
-section{
-
-}
 /*style footer*/
 .footer-page-home{
   text-align: center;
   padding: 10px;
+}
+/*form styling*/
+/* Contact us responsive design */
+#contact-container {
+  flex-direction: column;
+  display: flex;
+  flex-wrap: wrap;
+}
+.left-side-contact {
+  padding: 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+#contact-h2 {
+  padding-bottom: 10px;
+  margin-top: 10px;
+}
+.right-side-contact {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
 }
